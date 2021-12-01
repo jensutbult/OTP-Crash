@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "YubiKit",
+        "repositoryURL": "https://github.com/Yubico/yubikit-ios",
+        "state": {
+          "branch": "jens/ios15-otp-crash",
+          "revision": "3bc424fb9ed35f65dede5a4cc17c2cab60168218",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var viewModel = OTPViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
+        Button("Start OTP") {
+            viewModel.startOTP()
+        }
+        Text("\(viewModel.errorMessage ?? "")\(viewModel.token ?? "")")
             .padding()
     }
 }
